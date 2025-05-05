@@ -1,0 +1,3 @@
+[workspace]
+members = [ "app_core", "app_shell","shared_types" ]
+resolver = "3"

@@ -1,0 +1,13 @@
+[package]
+name = "app_core"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+iced = { version = "0.13" }
+log = { version = "0.4", features = ["max_level_trace"] }
+simplelog = "0.12"
+shared_types = { path = "../shared_types" }

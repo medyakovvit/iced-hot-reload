@@ -1,0 +1,13 @@
+[package]
+name = "app_shell"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+iced = { version = "0.13" , features = ["tokio"] }
+libloading = { version = "0.8" }
+log = { version = "0.4", features = ["max_level_trace"] }
+shared_types = { path = "../shared_types" }
+simplelog = "0.12"
+time = { version = "^0.3", features = [ "formatting", "parsing", "macros" ] }
