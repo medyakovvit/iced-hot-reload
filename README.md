@@ -46,8 +46,6 @@ Any changes to the UI or logic in `app_core` will trigger a reload after recompi
 ## 🌍 Platform Support
 
 * Windows: `.dll`
-* macOS: `.dylib`
-* Linux: `.so`
 
 File extension is resolved dynamically with `cfg!` at runtime.
 
